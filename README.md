@@ -5,14 +5,12 @@ Ferramenta de analise de arquivos em procura de nomes de Malwares, para achar ar
 
 pkg install git
 
+pkg install python3
+
 git clone https://github.com/101Ruan/Tvirus
 
 cd Tvirus
 
-pkg install python3
-
-pip install colorama
-
-pip install pyfiglet
+pip install -r requirements.txt
 
 python3 Tvirus.py
